@@ -1,0 +1,62 @@
+
+
+
+body{
+    background-image:url("./assets/images/background-pattern-desktop.svg") ;
+background-repeat: no-repeat;
+background-size: 100vw;
+height: 100vh;
+font-family:"Outfit";
+background-color: hsl(275, 100%, 97%);
+}
+
+.white-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.header-title{
+
+    display: flex;
+}
+
+.inside-box{
+padding: 20px;
+    background-color: white;
+    display: flex;
+
+    flex-direction: column;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.question{
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.hidden{
+    display: none;
+}
+
+.hover-state:hover{
+color:#9446b5;
+cursor:pointer;
+}
+.show-hide{
+background-color: transparent;
+border: none;
+
+}
+.container{display: flex;
+
+flex-direction: column;
+border-bottom:1px solid grey;
+color:hsl(292, 42%, 14%);
+}
+
